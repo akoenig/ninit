@@ -1,5 +1,5 @@
 {
-  "name": "@Module name@",
+  "name": "@name@",
   "description": "@Module description@",
   "author": {
     "name": "@Your name@",
@@ -11,6 +11,11 @@
   },
   "main": "@The main JS file@",
   "scripts": {
-    "test": "@The test command@"
+    "test": "gulp"
+  },
+  "devDependencies": {
+    "gulp-jasmine": "^0.2.0",
+    "gulp": "^3.5.5",
+    "gulp-jshint": "^1.5.0"
   }
 }

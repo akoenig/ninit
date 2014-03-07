@@ -14,7 +14,7 @@
 'use strict';
 
 var path      = require('path'),
-    Generator = require('./lib');
+    Generator = require('./lib').Generator;
 
 /**
  * DOCME
@@ -24,12 +24,17 @@ var path      = require('path'),
  * @return {[type]}              [description]
  *
  */
-exports.generate = function generate (templateName, specification) {
+exports.generate = function generate (templateName, specification, where) {
     specification = specification || {};
+
+    if (!where) {
+        where = process.cwd()
+    }
 
     return Generator.create({
         templatesPath: path.join(__dirname, 'templates'),
         templateName: templateName,
-        specification: specification
+        specification: specification,
+        destination: where
     });
 };
