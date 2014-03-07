@@ -9,7 +9,7 @@
   "repository": {
     "url": "@Repository@"
   },
-  "main": "@The main JS file",
+  "main": "@The main JS file@",
   "scripts": {
     "test": "@The test command@"
   }

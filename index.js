@@ -13,7 +13,7 @@
 
 'use strict';
 
-var pkg       = require('./package.json'),
+var path      = require('path'),
     Generator = require('./lib');
 
 /**
@@ -24,6 +24,12 @@ var pkg       = require('./package.json'),
  * @return {[type]}              [description]
  *
  */
-exports.generate = function generate (templateName, options) {
-    
+exports.generate = function generate (templateName, specification) {
+    specification = specification || {};
+
+    return Generator.create({
+        templatesPath: path.join(__dirname, 'templates'),
+        templateName: templateName,
+        specification: specification
+    });
 };
