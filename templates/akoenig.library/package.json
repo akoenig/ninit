@@ -1,0 +1,16 @@
+{
+  "name": "@Module name@",
+  "description": "@Module description@",
+  "author": {
+    "name": "@Your name@",
+    "email": "@Your email address@"
+  },
+  "version": "@Version@",
+  "repository": {
+    "url": "@Repository@"
+  },
+  "main": "@The main JS file",
+  "scripts": {
+    "test": "@The test command@"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "nmg",
+  "version": "0.1.0",
+  "description": "A community-driven node module generator.",
+  "author": {
+    "name": "André König",
+    "email": "andre.koenig@posteo.de"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "preferGlobal": true,
+  "scripts": {
+    "test": "gulp"
+  },
+  "bin": "./bin/nmg",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:akoenig/nmg.git"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "keywords": [
+    "module",
+    "generator",
+    "boilerplate"
+  ],
+  "bugs": {
+    "url": "https://github.com/akoenig/nmg/issues"
+  },
+  "homepage": "https://github.com/akoenig/nmg"
+}
