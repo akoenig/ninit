@@ -32,7 +32,8 @@
   "dependencies": {
     "event-stream": "^3.1.0",
     "mkdirp": "^0.3.5",
-    "frep": "^0.1.7"
+    "frep": "^0.1.7",
+    "chalk": "^0.4.0"
   },
   "devDependencies": {
     "gulp-jasmine": "^0.2.0",

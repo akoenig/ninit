@@ -1,13 +1,13 @@
 /*
  * @name@
  *
- * Copyright(c) 2014 @Your name@ <@Your email address@>
+ * Copyright(c) 2014 @your name@ <@your email address@>
  * MIT Licensed
  *
  */
 
 /**
- * @author @Your name@ <@Your email address@>
+ * @author @your name@ <@your email address@>
  *
  */
 
