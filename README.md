@@ -43,6 +43,10 @@ Okay, one last step: Send me a pull request and I will integrate your template i
 
 ## Changelog
 
+### Version 0.1.8 (20140308)
+
+- Fixed placeholder in `akoenig.minimal`
+
 ### Version 0.1.7 (20140308)
 
 - New template `akoenig.minimal`

@@ -2,7 +2,7 @@
     "name": "@name@",
     "author": {
         "name": "@your name@",
-        "email": "@your email@"
+        "email": "@your email address@"
     },
     "version": "@version@",
     "main": "index.js"
