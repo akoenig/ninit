@@ -6,7 +6,7 @@ A community-driven Node.js module bootstrapper.
 
 There are so many ways to structure a Node.js application / module. Every developer has it own style / flavor. That is great! This flexibility makes this community so unbelievable unique.
 
-`ninit`'s aim is to provide a platform on which every developer can publish her personal application / module template in order to share best practices and therefore help to evolve the quality of the Node.js ecosystem. Let's get started!
+`ninit`'s aim is to provide a platform on which every developer can publish her personal application / module template in order to share best practices and therefore help to support the evolution of the Node.js ecosystem. Let's get started!
 
 ## Installation
 
@@ -47,6 +47,7 @@ Okay, one last step: Send me a pull request and I will integrate your template i
 
 ### Version 0.1.1 (20140308)
 
+- Implemented `version` command
 - Created [gh-pages](http://akoenig.github.io/ninit)
 
 ### Version 0.1.0 (20140308)
