@@ -21,7 +21,7 @@ var path      = require('path'),
  *
  * @param {string} templateName The name of the template from which a new module should be generated.
  * @param {object} specification The mapping between tokens in the `package.json` and actual values.
- * @param {string} where The destination path in which the module should be generated (optional)
+ * @param {string} where The destination path in which the module should be generated (optional; default process.cwd())
  *
  * @return {EventEmitter} Events: error, done
  *
@@ -30,7 +30,7 @@ exports.generate = function generate (templateName, specification, where) {
     specification = specification || {};
 
     if (!where) {
-        where = process.cwd()
+        where = process.cwd();
     }
 
     return Generator.create({

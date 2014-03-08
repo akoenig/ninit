@@ -41,7 +41,9 @@ module.exports = (function main () {
     function done () {
         nmg.generate(templateName, specification)
             .once('error', function onError (err) {
-                return console.error(chalk.red(err.toString()));
+                console.error('\n' + chalk.red(err.toString()));
+
+                process.exit(1)
             })
             .once('done', function onDone () {
                 console.log(chalk.green('\n... created!'));
@@ -67,7 +69,7 @@ module.exports = (function main () {
     pkgjson = path.join(templateDir, templateName, 'package.json')
 
     if (fs.existsSync(pkgjson)) {
-        tokens = Helpers.getTokens(fs.readFileSync()).reverse();
+        tokens = Helpers.getTokens(fs.readFileSync(pkgjson)).reverse();
 
         next();
     } else {
