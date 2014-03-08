@@ -45,9 +45,12 @@ Okay, one last step: Send me a pull request and I will integrate your template i
 
 ## Changelog
 
-### Version 0.1.1 (20140308)
+### Version 0.1.2 (20140308)
 
 - Implemented `version` command
+
+### Version 0.1.1 (20140308)
+
 - Created [gh-pages](http://akoenig.github.io/ninit)
 
 ### Version 0.1.0 (20140308)
