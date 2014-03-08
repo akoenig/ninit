@@ -14,9 +14,9 @@ There are so many ways to structure a Node.js application / module. Every develo
 
 ## Usage example
 
-    ninit akoenig.expressapp
+    ninit akoenig.express-rest
 
-_ninit_ will generate a new application that has the structure of the `akoenig.expressapp` template.
+_ninit_ will generate a new application that has the structure of the `akoenig.express-rest` template.
 
 
 If you need an overview about the current available templates you could check the respective [directory](https://github.com/akoenig/ninit/tree/master/templates) or just type `ninit ls`

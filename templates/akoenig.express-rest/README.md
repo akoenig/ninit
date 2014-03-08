@@ -4,9 +4,13 @@
 
 ## Installation
 
-Install with [npm](https://npmjs.org/package/@name@).
+Install with [npm](https://npmjs.org/package/@name@) globally.
 
-    npm install --save @name@
+    npm install -g @name@
+
+## Run
+
+    @name@
 
 ## Changelog
 
