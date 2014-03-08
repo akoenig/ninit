@@ -6,22 +6,9 @@ A community-driven Node.js module bootstrapper with a focus on sharing personal 
 
 There are so many ways to structure a Node.js application / module. Every developer has its own style / flavor. That is great! This flexibility makes this community so unbelievable unique. _ninit's_ aim is to provide a platform on which every developer can publish her personal application / module template in order to share best practices and therefore help to support the evolution of the Node.js ecosystem. Even if you don't have any templates to share, no worries, _ninit_ brings the possibility to generate a fresh structure out of the available templates to bootstrap your next project. But, yes, enough words. Let's dive into this thingy.
 
-## Installation
-
-    npm install -g ninit
-
-## Usage example
-
-    ninit akoenig.express-rest
-
-_ninit_ will generate a new application that has the structure of the `akoenig.express-rest` template.
-
-
-If you need an overview about the current available templates you could check the respective [directory](https://github.com/akoenig/ninit/tree/master/templates) or just type `ninit ls`
-
 ## Contributing
 
-So this was the generator part, but what if your personal flavor is not covered yet? No problem. Feel free to add new templates as you go. You only have to perform three easy steps.
+The goal of this project is to have a discussion about different views on organizing codebases in Node.js and to provide a platform where all of those organizational patterns can be discussed, archived and used for bootstrapping. So open up your editor and publish your favorite module structure :)
 
 ### 1. Fork ninit
 
@@ -40,6 +27,23 @@ The names of the placeholders are enclosed in '@' characters (e.g. _@module desc
 That's all!
 
 Okay, one last step: Send me a pull request and I will integrate your template into _ninit_ and push a new version to the npm registry :)
+
+## Bootstrapping
+
+So this was the part of the contribution. There is also a generator which can bootstrap a new project out of a template.
+
+### Installation
+
+    npm install -g ninit
+
+### Usage example
+
+    ninit akoenig.express-rest
+
+_ninit_ will generate a new application that has the structure of the `akoenig.express-rest` template.
+
+
+If you need an overview about the current available templates you could check the respective [directory](https://github.com/akoenig/ninit/tree/master/templates) or just type `ninit ls`
 
 ## Changelog
 
