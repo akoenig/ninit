@@ -2,9 +2,11 @@
 
 A community-driven Node.js module bootstrapper with a focus on sharing personal best practices in organizing codebases.
 
-## What?
+## Why?
 
-There are so many ways to structure a Node.js application / module. Every developer has its own style / flavor. That is great! This flexibility makes this community so unbelievable unique. _ninit's_ aim is to provide a platform on which every developer can publish her personal application / module template in order to share best practices and therefore help to support the evolution of the Node.js ecosystem. Even if you don't have any templates to share, no worries, _ninit_ brings the possibility to generate a fresh structure out of the available templates to bootstrap your next project. But, yes, enough words. Let's dive into this thingy.
+When I'm talking to developers who are working with Node.js for the first time they are complaining that creating a maintainable structure for the application / module represents one of the hardest aspects. Yes, there are many ways to structure a Node.js application / module. Every developer has its own style / flavor. That is great! This flexibility makes this community so unbelievable unique. _ninit's_ aim is to provide a platform on which every developer can publish her personal application / module template in order to share best practices and therefore help to support starters but also the evolution of the Node.js ecosystem in general. So this project could be all about sharing experiences regarding this topic.
+
+But even if you don't have any templates to share, no worries, _ninit_ brings the possibility to generate a fresh structure out of the available templates to bootstrap your next project. Enough words. Let's dive into this thingy.
 
 ## Contributing
 
