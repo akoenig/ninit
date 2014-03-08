@@ -21,6 +21,24 @@ If you need an overview about the available templates you could check the respec
 
     ninit ls
 
+## Contributing
+
+Your personal flavor is not covered yet? No problem. Feel free to add new templates as you go. You have to perform three easy steps.
+
+### 1. Fork the project
+
+Well, you know, this tiny button in the right corner.
+
+### 2. Create a template directory
+
+Create a new template directory [here](https://github.com/akoenig/ninit/tree/master/templates) and name it like `<your-github-username>.<your-template-name>`.
+
+### 3. Create a package.json and define some placeholders
+
+_ninit_ needs the definition of some placeholders in order to know which information should be asked in the case a module should generated from your template. A placeholder is enclosed in '@' characters, like: `@module description@`. You have the complete freedom of the naming. The only required placeholder is `@name@`. After you set up your personal placeholders, you can use them in all of your files within the template.
+
+The last step: Send me a pull request and I will integrate your template into _ninit_ and push it to the npm registry.
+
 # Author
 
 2014, André König (andre.koenig@posteo.de)
