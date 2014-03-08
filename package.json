@@ -1,7 +1,7 @@
 {
   "name": "ninit",
-  "version": "0.1.0",
-  "description": "A community-driven node module bootstrapper.",
+  "version": "0.1.1",
+  "description": "A community-driven Node.js module bootstrapper.",
   "author": {
     "name": "André König",
     "email": "andre.koenig@posteo.de"

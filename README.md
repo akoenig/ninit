@@ -45,9 +45,13 @@ Okay, one last step: Send me a pull request and I will integrate your template i
 
 ## Changelog
 
+### Version 0.1.1 (20140308)
+
+- Added `akoenig.cli`
+
 ### Version 0.1.0 (20140308)
 
-- The initial version with the generator part and three templates, yay :)!
+- The initial version with the generator part and two templates, yay :)!
 
 # Author
 
