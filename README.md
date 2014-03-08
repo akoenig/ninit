@@ -47,7 +47,7 @@ Okay, one last step: Send me a pull request and I will integrate your template i
 
 ### Version 0.1.1 (20140308)
 
-- Added `akoenig.cli`
+- Created [gh-pages](http://akoenig.github.io/ninit)
 
 ### Version 0.1.0 (20140308)
 
