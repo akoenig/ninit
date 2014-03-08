@@ -4,7 +4,7 @@ A community-driven Node.js module bootstrapper with a focus on sharing personal 
 
 ## Why?
 
-When I'm talking to developers who are working with Node.js for the first time they are complaining that creating a maintainable structure for the application / module represents one of the hardest aspects. Yes, there are many ways to structure a Node.js application / module. Every developer has its own style / flavor. That is great! This flexibility makes this community so unbelievable unique. _ninit's_ aim is to provide a platform on which every developer can publish her personal application / module template in order to share best practices and therefore help to support starters but also the evolution of the Node.js ecosystem in general. So this project could be all about sharing experiences regarding this topic.
+When I'm talking to developers who are working with Node.js for the first time they are complaining that creating a maintainable structure for their application / module represents one of the hardest aspects. Yes, there are many ways to structure a Node.js module. Every developer has its own style / flavor. That is great! This flexibility makes this community so unbelievable unique. _ninit's_ aim is to provide a platform on which every developer can publish her personal application / module template in order to share best practices and therefore help to support starters but also the evolution of the Node.js ecosystem in general. So this project could be all about sharing experiences regarding this topic.
 
 But even if you don't have any templates to share, no worries, _ninit_ brings the possibility to generate a fresh structure out of the available templates to bootstrap your next project. Enough words. Let's dive into this thingy.
 
@@ -22,7 +22,7 @@ Create a new template directory [here](https://github.com/akoenig/ninit/tree/mas
 
 ### 3. Create a package.json and define some placeholders
 
-The `package.json` within your template is the central place for the definition of _ninit_ placeholders. These placeholders represent the information which the user has to insert in the case where she wants to generate a new module / app from your template. They can be used in all of your template files and will be replaced with the actual information while generation.
+The `package.json` within your template is the central place for the definition of _ninit_ placeholders. These placeholders represent the information which the user has to insert in the case where she wants to generate a new module from your template. They can be used in all of your template files and will be replaced with the actual information while generating the module.
 
 The names of the placeholders are enclosed in '@' characters (e.g. _@module description@_) and the actual naming is completely up to you. The only required placeholder which has to be defined is '@name@'. See this [file](https://github.com/akoenig/ninit/blob/master/templates/akoenig.library/package.json) for an example.
 
@@ -32,7 +32,7 @@ Okay, one last step: Send me a pull request and I will integrate your template i
 
 ## Bootstrapping
 
-So this was the part of the contribution. There is also a generator which can bootstrap a new project out of a template.
+So this was the part of the contribution. As I said before there is also a generator which can bootstrap a new project out of a template.
 
 ### Installation
 
