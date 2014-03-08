@@ -15,10 +15,10 @@ a {
     font-weight:400;
     text-decoration:none;
 
-    -webkit-transition: color .2s linear .2s;
-    -moz-transition: color .2s linear .2s;
-    -o-transition: color .2s linear .2s;
-    transition: color .2s linear .2s;
+    -webkit-transition: all .2s linear .2s;
+    -moz-transition: all .2s linear .2s;
+    -o-transition: all .2s linear .2s;
+    transition: all .2s linear .2s;
 }
 
 body {
@@ -28,6 +28,28 @@ body {
 
 .image-round {
     border-radius:50%;
+}
+
+.button {
+    background:#3498db;
+    color:#fff !important;
+    opacity:.85;
+    display:inline-block;
+}
+
+.button:hover {
+    opacity:1;
+}
+
+.button-success {
+    background:rgba(116, 174, 18, .98);
+}
+
+.button.button-block {
+    line-height:50px;
+    margin:40px 0;
+    text-align:center;
+    width:100%;
 }
 
 #wrapper {
@@ -100,58 +122,62 @@ body {
 }
 
 #install .fragment-title {
-    color:#3498db;
-}
-
-#usage .fragment-title {
     color:#e67e22;
 }
 
-#templates .fragment-title {
+#usage .fragment-title {
     color:#2ecc71;
+}
+
+#templates .fragment-title {
+    color:#3498db;
+}
+
+#templates a {
+    color:#3498db;
 }
 
 #contributing .fragment-title {
     color:rgba(116, 174, 18, .98);
 }
 
-#love {
+.copyright {
     line-height:80px;
     text-align:center;
 }
 
-#love img {
+.copyright .copyright-avatar {
     margin:0 10px -16px;
 }
 
-#love a {
+.copyright a {
     color:rgba(0, 0, 0, .8);
 }
 
 .template-list {
     list-style-type:none;
-    margin:0 0;
-    padding:30px 0;
+    margin:0;
+    padding:20px 0;
 }
 
 .template-list .template-list-entry {
     border:solid rgba(0, 0, 0, .06);
-    border-width:1px 0;
-    padding:10px;
+    border-width:1px 0 0;
+    padding:15px 10px;
 }
 
 .template-list .template-list-entry strong {
     color:rgba(0, 0, 0, .6);
-    font-size:200%;
+    padding:0 5px;
 }
 
-.template-list .template-list-entry:last-child {
-    border-width:0 0 1px;
+.template-list .template-list-entry.last {
+    border-width:1px 0 1px;
 }
 
 .codebox {
     background:rgba(0, 0, 0, .02);
     color:rgba(0, 0, 0, .6);
-    font-size:160%;
+    font-size:120%;
     padding:40px 40px 20px;
 }
