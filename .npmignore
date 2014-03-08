@@ -1,4 +1,2 @@
-.travis.yml
-.jshintrc
 specs
 gulpfile.js

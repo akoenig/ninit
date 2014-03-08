@@ -45,6 +45,10 @@ Okay, one last step: Send me a pull request and I will integrate your template i
 
 ## Changelog
 
+### Version 0.1.3 (20140308)
+
+- Fixed `.npmignore`
+
 ### Version 0.1.2 (20140308)
 
 - Implemented `version` command
