@@ -1,0 +1,9 @@
+{
+    "name": "@name@",
+    "author": {
+        "name": "@your name@",
+        "email": "@your email@"
+    },
+    "version": "@version@",
+    "main": "index.js"
+}

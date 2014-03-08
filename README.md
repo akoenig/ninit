@@ -43,6 +43,10 @@ Okay, one last step: Send me a pull request and I will integrate your template i
 
 ## Changelog
 
+### Version 0.1.7 (20140308)
+
+- New template `akoenig.minimal`
+
 ### Version 0.1.6 (20140308)
 
 - Fixed spec in `akoenig.library`
