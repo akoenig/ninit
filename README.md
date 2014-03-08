@@ -19,7 +19,7 @@ There are so many ways to structure a Node.js application / module. Every develo
 _ninit_ will generate a new application that has the structure of the `akoenig.expressapp` template.
 
 
-If you need an overview about the current available templates you could check the respective [directory](https://github.com/akoenig/ninit/tree/master/templates) or just type
+If you need an overview about the current available templates you could check the respective [directory](https://github.com/akoenig/ninit/tree/master/templates) or just type `ninit ls`
 
 ## Contributing
 
@@ -42,6 +42,12 @@ The names of the placeholders are enclosed in '@' characters (e.g. _@module desc
 That's all!
 
 Okay, one last step: Send me a pull request and I will integrate your template into _ninit_ and push a new version to the npm registry :)
+
+## Changelog
+
+### Version 0.1.0 (20140308)
+
+- The initial version with the generator part and three templates, yay :)!
 
 # Author
 
