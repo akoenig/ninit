@@ -1,6 +1,6 @@
 # ninit [![Build Status](https://travis-ci.org/akoenig/ninit.png?branch=master)](https://travis-ci.org/akoenig/ninit)
 
-A community-driven Node.js module bootstrapper.
+A community-driven Node.js module bootstrapper with a focus on sharing best practices.
 
 ## What?
 
