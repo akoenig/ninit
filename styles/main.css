@@ -1,0 +1,161 @@
+/**
+ * ninit
+ *
+ * @author: André König (andre.koenig@posteo.de)
+ * 
+ */
+
+h1, h2, h3, h4, h5 {
+    font-weight:400;
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    color:#3498db;
+    font-weight:400;
+    text-decoration:none;
+
+    -webkit-transition: color .2s linear .2s;
+    -moz-transition: color .2s linear .2s;
+    -o-transition: color .2s linear .2s;
+    transition: color .2s linear .2s;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight:300;
+}
+
+.heart {
+    color:rgba(192, 65, 51, .98);
+}
+
+.image-round {
+    border-radius:50%;
+}
+
+#wrapper {
+    margin:0 auto;
+    width:700px;
+}
+
+.header {}
+
+.header.header-main {
+    margin:200px 0 100px;
+    text-align:center;
+}
+
+.header.header-main h1 {
+    font-size:300%;
+    font-weight:400;
+}
+
+.header.header-main h2 {
+    color:rgba(0, 0, 0, .5);
+    font-size:140%;
+    font-weight:300;
+}
+
+.navigation {}
+
+.navigation.navigation-main {
+    border:solid rgba(0, 0, 0, .06);
+    border-width:1px 0;
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    margin-bottom:80px;
+    padding:20px 0;
+    text-align:center;
+}
+
+.navigation.navigation-main .navigation-main-entry {
+    display:inline-block;
+    padding:0 12px;
+}
+
+.navigation.navigation-main .navigation-main-entry a {
+    color:#000;
+    font-size:95%;
+    opacity:.8;
+}
+
+.navigation.navigation-main .navigation-main-entry a:hover {
+    color:#3498db;
+}
+
+.fragment {
+    margin:160px 0 120px;
+}
+
+.fragment .fragment-title {
+    font-size:200%;
+}
+
+.fragment .fragment-paragraph {
+    color:rgba(0, 0, 0, .8);
+    font-size:95%;
+    line-height:2em;
+}
+
+#about .fragment-title {
+    color:rgba(192, 65, 51, .98);
+}
+
+#install .fragment-title {
+    color:#3498db;
+}
+
+#usage .fragment-title {
+    color:#e67e22;
+}
+
+#templates .fragment-title {
+    color:#2ecc71;
+}
+
+#contributing .fragment-title {
+    color:rgba(116, 174, 18, .98);
+}
+
+#love {
+    line-height:80px;
+    text-align:center;
+}
+
+#love img {
+    margin:0 10px -16px;
+}
+
+#love a {
+    color:rgba(0, 0, 0, .8);
+}
+
+.template-list {
+    list-style-type:none;
+    margin:0 0;
+    padding:30px 0;
+}
+
+.template-list .template-list-entry {
+    border:solid rgba(0, 0, 0, .06);
+    border-width:1px 0;
+    padding:10px;
+}
+
+.template-list .template-list-entry strong {
+    color:rgba(0, 0, 0, .6);
+    font-size:200%;
+}
+
+.template-list .template-list-entry:last-child {
+    border-width:0 0 1px;
+}
+
+.codebox {
+    background:rgba(0, 0, 0, .02);
+    color:rgba(0, 0, 0, .6);
+    font-size:160%;
+    padding:40px 40px 20px;
+}
