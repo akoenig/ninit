@@ -45,6 +45,10 @@ Okay, one last step: Send me a pull request and I will integrate your template i
 
 ## Changelog
 
+### Version 0.1.4 (20140308)
+
+- Removed the `.npmignore` files from the templates.
+
 ### Version 0.1.3 (20140308)
 
 - Fixed `.npmignore`
