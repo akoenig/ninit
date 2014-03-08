@@ -16,6 +16,6 @@
 describe('The "@name@"', function () {
 
     it('should ...', function (done) {
-
+        done();
     });
 });

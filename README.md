@@ -45,6 +45,10 @@ Okay, one last step: Send me a pull request and I will integrate your template i
 
 ## Changelog
 
+### Version 0.1.6 (20140308)
+
+- Fixed spec in `akoenig.library`
+
 ### Version 0.1.0 - 0.1.5 (20140308)
 
 - Removed the `.npmignore` files from the templates.
