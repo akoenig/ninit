@@ -1,5 +1,18 @@
 #!/usr/bin/env node
 
+/*
+ * ninit - node module bootstrapper
+ *
+ * Copyright(c) 2014 André König <andre.koenig@posteo.de>
+ * MIT Licensed
+ *
+ */
+
+/**
+ * @author André König <andre.koenig@posteo.de>
+ *
+ */
+
 'use strict';
 
 var path     = require('path'),
@@ -7,7 +20,7 @@ var path     = require('path'),
     readline = require('readline'),
     chalk    = require('chalk'),
     pkg      = require('../package.json'),
-    nmg      = require('../'),
+    ninit      = require('../'),
     Helpers  = require('../lib/utilities');
 
 module.exports = (function main () {
@@ -39,7 +52,7 @@ module.exports = (function main () {
     }
 
     function done () {
-        nmg.generate(templateName, specification)
+        ninit.generate(templateName, specification)
             .once('error', function onError (err) {
                 console.error('\n' + chalk.red(err.toString()));
 

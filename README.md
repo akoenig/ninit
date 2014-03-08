@@ -1,6 +1,6 @@
-# nmg - node module generator
+# ninit - node module bootstrapper
 
-A community-driven node module generator.
+A community-driven node module bootstrapper.
 
 # Author
 

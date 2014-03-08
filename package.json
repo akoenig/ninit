@@ -1,7 +1,7 @@
 {
-  "name": "nmg",
+  "name": "ninit",
   "version": "0.1.0",
-  "description": "A community-driven node module generator.",
+  "description": "A community-driven node module bootstrapper.",
   "author": {
     "name": "André König",
     "email": "andre.koenig@posteo.de"
@@ -12,10 +12,10 @@
   "scripts": {
     "test": "gulp"
   },
-  "bin": "./bin/nmg",
+  "bin": "./bin/ninit",
   "repository": {
     "type": "git",
-    "url": "git@github.com:akoenig/nmg.git"
+    "url": "git@github.com:akoenig/ninit.git"
   },
   "engines": {
     "node": ">=0.10.0"
@@ -26,9 +26,9 @@
     "boilerplate"
   ],
   "bugs": {
-    "url": "https://github.com/akoenig/nmg/issues"
+    "url": "https://github.com/akoenig/ninit/issues"
   },
-  "homepage": "https://github.com/akoenig/nmg",
+  "homepage": "https://github.com/akoenig/ninit",
   "dependencies": {
     "event-stream": "^3.1.0",
     "mkdirp": "^0.3.5",

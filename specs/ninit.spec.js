@@ -1,5 +1,5 @@
 /*
- * nmg - node module generator
+ * ninit - node module bootstrapper
  *
  * Copyright(c) 2014 André König <andre.koenig@posteo.de>
  * MIT Licensed
@@ -15,16 +15,16 @@
 
 var fs   = require('fs'),
     path = require('path'),
-    nmg  = require('../');
+    ninit  = require('../');
 
-describe('The "nmg" generate', function () {
+describe('The "ninit" generate', function () {
 
     var options = {
         name: 'foo'
     };
 
     it('should fail if no parameters has been passed', function (done) {
-        nmg.generate().once('error', function (err) {
+        ninit.generate().once('error', function (err) {
             expect(err).toBeDefined();
             expect(err.toString()).toBe('Error: Please define the @name@ attribute.');
 
@@ -33,7 +33,7 @@ describe('The "nmg" generate', function () {
     });
 
     it('should fail if the template does not exist', function (done) {
-        nmg.generate('foooo', options).once('error', function (err) {
+        ninit.generate('foooo', options).once('error', function (err) {
             expect(err).toBeDefined();
             expect(err.toString()).toBe('Error: The specified template does not exist.');
 
@@ -42,7 +42,7 @@ describe('The "nmg" generate', function () {
     });
 
     it('should be able to generate a module by a specific template', function (done) {
-        nmg.generate('akoenig.library', options, __dirname)
+        ninit.generate('akoenig.library', options, __dirname)
             .once('done', function () {
                 var dest = path.join(__dirname, options.name);
 
