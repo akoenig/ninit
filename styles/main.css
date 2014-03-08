@@ -26,10 +26,6 @@ body {
     font-weight:300;
 }
 
-.heart {
-    color:rgba(192, 65, 51, .98);
-}
-
 .image-round {
     border-radius:50%;
 }
