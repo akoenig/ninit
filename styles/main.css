@@ -73,6 +73,7 @@ body {
     color:rgba(0, 0, 0, .5);
     font-size:140%;
     font-weight:300;
+    line-height:1.6em;
 }
 
 .navigation {}
