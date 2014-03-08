@@ -16,7 +16,8 @@ module.exports = (function main () {
         templateName = process.argv[2],
         cli = readline.createInterface(process.stdin, process.stdout),
         specification = {},
-        tokens;
+        tokens,
+        pkgjson;
 
     function next () {
         var token = tokens.pop();
@@ -63,7 +64,15 @@ module.exports = (function main () {
         process.exit(0);
     }
 
-    tokens = Helpers.getTokens(fs.readFileSync(path.join(templateDir, templateName, 'package.json'))).reverse();
+    pkgjson = path.join(templateDir, templateName, 'package.json')
 
-    next();
+    if (fs.existsSync(pkgjson)) {
+        tokens = Helpers.getTokens(fs.readFileSync()).reverse();
+
+        next();
+    } else {
+        console.error(chalk.red('Template "%s" does not exist, use `%s ls` for a template listing'), templateName, pkg.name);
+
+        process.exit(1);
+    }
 })();

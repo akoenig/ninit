@@ -17,11 +17,13 @@ var path      = require('path'),
     Generator = require('./lib').Generator;
 
 /**
- * DOCME
+ * Generates a module by a given template name and specification
  *
- * @param  {[type]} templateName [description]
- * @param  {[type]} options      [description]
- * @return {[type]}              [description]
+ * @param {string} templateName The name of the template from which a new module should be generated.
+ * @param {object} specification The mapping between tokens in the `package.json` and actual values.
+ * @param {string} where The destination path in which the module should be generated (optional)
+ *
+ * @return {EventEmitter} Events: error, done
  *
  */
 exports.generate = function generate (templateName, specification, where) {
