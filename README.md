@@ -49,6 +49,10 @@ If you need an overview about the current available templates you could check th
 
 ## Changelog
 
+### Version 0.1.9 (20140310)
+
+- New template `akoenig.gulp-plugin`
+
 ### Version 0.1.8 (20140308)
 
 - Fixed placeholder in `akoenig.minimal`

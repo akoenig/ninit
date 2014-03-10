@@ -1,6 +1,6 @@
 {
   "name": "ninit",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "A community-driven Node.js module bootstrapper.",
   "author": {
     "name": "André König",
