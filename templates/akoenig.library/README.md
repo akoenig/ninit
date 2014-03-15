@@ -1,6 +1,6 @@
 # @name@
 
-@Module description@
+@module description@
 
 ## Installation
 
@@ -12,4 +12,4 @@ Install with [npm](https://npmjs.org/package/@name@).
 
 ## Author
 
-Copyright 2014, [@Your name@](http://) (@Your email address@)
+Copyright 2014, [@your name@](http://) (@your email address@)
