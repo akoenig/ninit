@@ -9,6 +9,7 @@
   "repository": {
     "url": "@repository@"
   },
+  "license": "MIT",
   "main": "@main JS file@",
   "scripts": {
     "test": "gulp"
