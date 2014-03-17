@@ -13,9 +13,9 @@
 
 'use strict';
 
-var through     = require('through2'),
-    gutil       = require('gulp-util'),
-    PLUGIN_NAME = '@name@';
+var through     = require('through2');
+var gutil       = require('gulp-util');
+var PLUGIN_NAME = '@name@';
 
 module.exports = function () {
 
