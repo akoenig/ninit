@@ -21,7 +21,7 @@ describe('The "@name@" plugin', function () {
     it('should ...', function (done) {
         var strom = yourPlugin();
 
-        strom.on('data', function (css) {
+        strom.on('data', function (chunk) {
             done();
         });
 
