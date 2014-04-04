@@ -13,12 +13,12 @@
 
 'use strict';
 
-var path   = require('path'),
-    app    = require('./app/'),
-    pkg    = require('./package.json'),
-    config = {
-        env: require(path.join(__dirname, 'config', 'environment.json'))
-    };
+var path = require('path');
+var app = require('./app/');
+var pkg = require('./package.json');
+var config = {
+    env: require(path.join(__dirname, 'config', 'environment.json'))
+};
 
 function onBoot (err) {
     if (err) {

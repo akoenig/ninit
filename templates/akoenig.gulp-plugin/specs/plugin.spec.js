@@ -13,8 +13,8 @@
 
 'use strict';
 
-var yourPlugin = require('../'),
-    gutil      = require('gulp-util');
+var yourPlugin = require('../');
+var gutil = require('gulp-util');
 
 describe('The "@name@" plugin', function () {
 

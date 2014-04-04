@@ -13,9 +13,9 @@
 
 'use strict';
 
-var express = require('express'),
-    api     = require('./api'),
-    server;
+var express = require('express');
+var api = require('./api');
+var server;
 
 require('express-namespace');
 

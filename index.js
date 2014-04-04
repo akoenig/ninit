@@ -13,8 +13,8 @@
 
 'use strict';
 
-var path      = require('path'),
-    Generator = require('./lib').Generator;
+var path      = require('path');
+var Generator = require('./lib').Generator;
 
 /**
  * Generates a module by a given template name and specification

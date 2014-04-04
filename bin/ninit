@@ -15,22 +15,22 @@
 
 'use strict';
 
-var path     = require('path'),
-    fs       = require('fs'),
-    readline = require('readline'),
-    chalk    = require('chalk'),
-    pkg      = require('../package.json'),
-    ninit      = require('../'),
-    Helpers  = require('../lib/utilities');
+var fs = require('fs');
+var path = require('path');
+var readline = require('readline');
+var chalk = require('chalk');
+var pkg = require('../package.json');
+var ninit = require('../');
+var Helpers = require('../lib/utilities');
 
 module.exports = (function main () {
 
-    var templateDir = path.join(__dirname, '..', 'templates'),
-        templateName = process.argv[2],
-        cli = readline.createInterface(process.stdin, process.stdout),
-        specification = {},
-        tokens,
-        pkgjson;
+    var templateDir = path.join(__dirname, '..', 'templates');
+    var templateName = process.argv[2];
+    var cli = readline.createInterface(process.stdin, process.stdout);
+    var specification = {};
+    var tokens;
+    var pkgjson;
 
     function next () {
         var token = tokens.pop();
@@ -70,16 +70,18 @@ module.exports = (function main () {
         console.log('Usage: %s template-name', pkg.name);
 
         console.error(chalk.red('Missing template name. If you would like to see a list of template, use `%s ls`'), pkg.name);
-        process.exit(1);
+
+        return process.exit(1);
     } else if ('ls' === templateName) {
         fs.readdirSync(templateDir).sort().forEach(function onTemplate (template) {
             console.log(chalk.green(template));
         });
 
-        process.exit(0);
+        return process.exit(0);
     } else if ('version' === templateName) {
         console.log(chalk.green(pkg.version));
-        process.exit(0);
+
+        return process.exit(0);
     }
 
     pkgjson = path.join(templateDir, templateName, 'package.json')
@@ -91,6 +93,6 @@ module.exports = (function main () {
     } else {
         console.error(chalk.red('Template "%s" does not exist, use `%s ls` for a template listing'), templateName, pkg.name);
 
-        process.exit(1);
+        return process.exit(1);
     }
 })();

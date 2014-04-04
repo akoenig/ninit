@@ -49,6 +49,10 @@ If you need an overview about the current available templates you could check th
 
 ## Changelog
 
+### Version 0.1.11 (20140404)
+
+- Changed variable declarations.
+
 ### Version 0.1.10 (20140315)
 
 - Fixed placeholder in `akoenig.library`

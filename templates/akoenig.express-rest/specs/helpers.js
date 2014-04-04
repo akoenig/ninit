@@ -13,11 +13,11 @@
 
 'use strict';
 
-var http   = require('http'),
-    app    = require('../app'),
-    config = {
-        env: require('../config/environment.json')
-    };
+var http = require('http');
+var app = require('../app');
+var config = {
+    env: require('../config/environment.json')
+};
 
 exports.config = config;
 

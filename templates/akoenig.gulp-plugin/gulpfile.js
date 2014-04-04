@@ -13,10 +13,10 @@
 
 'use strict';
 
-var gulp    = require('gulp');
-var jshint  = require('gulp-jshint');
+var gulp = require('gulp');
+var jshint = require('gulp-jshint');
 var jasmine = require('gulp-jasmine');
-var paths   = {};
+var paths = {};
 
 paths.sources = ['./*.js', './specs/**/*.js'];
 paths.specs    = ['./specs/*.spec.js'];

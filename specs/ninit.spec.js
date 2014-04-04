@@ -13,9 +13,9 @@
 
 'use strict';
 
-var fs   = require('fs'),
-    path = require('path'),
-    ninit  = require('../');
+var fs   = require('fs');
+var path = require('path');
+var ninit  = require('../');
 
 describe('The "ninit" generate', function () {
 
