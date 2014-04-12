@@ -49,6 +49,10 @@ If you need an overview about the current available templates you could check th
 
 ## Changelog
 
+### Version 0.1.12 (20140412)
+
+- `akoenig.minimal`: Added @description@ tag.
+
 ### Version 0.1.11 (20140404)
 
 - Changed variable declarations.

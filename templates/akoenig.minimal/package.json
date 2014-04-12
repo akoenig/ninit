@@ -1,5 +1,6 @@
 {
     "name": "@name@",
+    "description": "@description@",
     "author": {
         "name": "@your name@",
         "email": "@your email address@"
