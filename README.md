@@ -49,6 +49,10 @@ If you need an overview about the current available templates you could check th
 
 ## Changelog
 
+### Version 0.2.0 (Future)
+
+- `akoenig.angular-app` template.
+
 ### Version 0.1.12 (20140412)
 
 - `akoenig.minimal`: Added @description@ tag.
