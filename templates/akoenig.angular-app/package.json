@@ -1,0 +1,19 @@
+{
+  "name": "@name@",
+  "description": "@application description@",
+  "author": {
+    "name": "@your name@",
+    "email": "@your email address@"
+  },
+  "version": "0.1.0",
+  "repository": {
+    "url": "@repository@"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.0"
+  }
+}
