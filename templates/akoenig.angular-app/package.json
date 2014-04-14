@@ -14,6 +14,9 @@
     "test": "gulp"
   },
   "devDependencies": {
-    "gulp": "^3.6.0"
+    "gulp": "^3.6.0",
+    "gulp-connect": "^2.0.5",
+    "gulp-watch": "^0.5.4",
+    "gulp-jshint": "^1.5.3"
   }
 }
