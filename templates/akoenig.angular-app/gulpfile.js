@@ -64,7 +64,7 @@ gulp.task('dev:observe:javascript', function () {
  *
  */
 gulp.task('dev:observe:templates', function () {
-	var watchables = 'app/templates/**/*.html';
+	var watchables = 'app/{*.html,templates/**/*.html}';
 
 	function onChange (files) {
 		return files.pipe(connect.reload());
